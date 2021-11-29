@@ -67,37 +67,6 @@ const Home: NextPage<Props> = ({ twitterInfo, githubInfo }) => {
             </Head>
             <Page>
                 <Main>
-                    <SectionBox>
-                        <SectionTitle>GITHUB</SectionTitle>
-                        <SectionProfile>
-                            <Avatar src={github.avatar} alt="GitHub Profile Picture" />
-                            <ProfileTitle>
-                                {github.name} <br />
-                                <span style={{ color: "#bbb" }}>({githubUsername})</span>
-                            </ProfileTitle>
-                        </SectionProfile>
-                        <SectionContent>
-                            <SectionInfo>
-                                FOLLOWERS
-                                <SectionStat color={"#70a7ff"}>{github.followers}</SectionStat>
-                            </SectionInfo>
-
-                            <SectionInfo>
-                                FOLLOWING
-                                <SectionStat color={"#3234a8"}>{github.following}</SectionStat>
-                            </SectionInfo>
-
-                            <SectionInfo>
-                                STARS<SectionStat color={"#e5ff70"}>{github.stars}</SectionStat>
-                            </SectionInfo>
-
-                            <SectionInfo>
-                                REPOS
-                                <SectionStat color={"#7eff70"}>{github.repos}</SectionStat>
-                            </SectionInfo>
-                        </SectionContent>
-                    </SectionBox>
-
                     <SectionBox style={{ width: "28.5rem", height: "17rem" }}>
                         <SectionTitle style={{ margin: 0 }}>DISCORD</SectionTitle>
                         <img
