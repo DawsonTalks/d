@@ -53,7 +53,7 @@ const Home: NextPage<Props> = ({ twitterInfo, githubInfo }) => {
 
             setUpdatedTimestamp(new Date().toLocaleString());
             setDc(old => old + 1);
-        }, 18000);
+        }, 10000);
 
         return () => {
             clearInterval(interval);
