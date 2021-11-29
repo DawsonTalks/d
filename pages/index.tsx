@@ -68,31 +68,6 @@ const Home: NextPage<Props> = ({ twitterInfo, githubInfo }) => {
             <Page>
                 <Main>
                     <SectionBox>
-                        <SectionTitle>TWITTER</SectionTitle>
-                        <SectionProfile>
-                            <Avatar src={twitter.avatar} alt="Twitter Profile Picture" />
-                            <ProfileTitle>
-                                {twitter.name} <br />
-                                <span style={{ color: "#bbb" }}>(@{twitterUsername})</span>
-                            </ProfileTitle>
-                        </SectionProfile>
-                        <SectionContent>
-                            <SectionInfo>
-                                FOLLOWERS
-                                <SectionStat color={"#2462AF"}>{twitter.followers}</SectionStat>
-                            </SectionInfo>
-                            <SectionInfo>
-                                FOLLOWING
-                                <SectionStat color={"#3234a8"}>{twitter.following}</SectionStat>
-                            </SectionInfo>
-                            <SectionInfo>
-                                TWEETS
-                                <SectionStat color={"#b78feb"}>{twitter.tweets}</SectionStat>
-                            </SectionInfo>
-                        </SectionContent>
-                    </SectionBox>
-
-                    <SectionBox>
                         <SectionTitle>GITHUB</SectionTitle>
                         <SectionProfile>
                             <Avatar src={github.avatar} alt="GitHub Profile Picture" />
